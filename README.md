@@ -16,7 +16,15 @@ This repository uses these libraries.
 # Methods
 This repository implements these methods for POMDP problems.
 
-* Qdot Table
-* Qdot Neural Network
-* Qdot Quantum Circuit
+* Complex-valued reinforcement learning
+    * Qdot Table
+    * Qdot Neural Network
+    * Qdot Quantum Circuit
 * RNN
+## Complex-valued reinforcement learning
+Value function is complex value and updated by learning algorithm that extends normal Q-learning in consideration of phase. This complex-valued value function is represented by below methods.
+* Table
+* Neural Network
+* Quantum Circuit
+## RNN
+Value function is represented by recurrent neural network to use history.
