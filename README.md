@@ -32,16 +32,24 @@ Value function is represented by recurrent neural network to use history.
 To run Complex-valued reinforcement learning:
 * Table
 
-```python main.py po_maze qdot_learning 0.9 1000 "save_dir_name" --rotation_angle 6 --alpha 0.25 --n_episodes 5000```
+```
+python main.py po_maze qdot_learning 0.9 1000 "save_dir_name" --rotation_angle 6 --alpha 0.25 --n_episodes 5000
+```
 
 * Neural Network
 
-```python main.py po_maze qdot_learning_nn 0.7 1000 "save_dir_name" --rotation_angle 180 --is_continuous --action_encoding --n_episodes 5000```
+```
+python main.py po_maze qdot_learning_nn 0.7 1000 "save_dir_name" --rotation_angle 180 --is_continuous --action_encoding --n_episodes 5000
+```
 
 * Quantum Circuit
 
-```python main.py po_maze qdot_learning_qc 0.7 1000 "save_dir_name" --rotation_angle 180 --binary_encoding --qubit 6 --depth 3 --gamma_q 6 --lr_q 0.001 --n_episodes 5000```
+```
+python main.py po_maze qdot_learning_qc 0.7 1000 "save_dir_name" --rotation_angle 180 --binary_encoding --qubit 6 --depth 3 --gamma_q 6 --lr_q 0.001 --n_episodes 5000
+```
 
 To run RNN:
 
-```python main.py po_maze q_learning_lstm 0.9 1000 "save_dir_name" --is_continuous --n_episodes 5000 --lr_o 0.00001```
+```
+python main.py po_maze q_learning_lstm 0.9 1000 "save_dir_name" --is_continuous --n_episodes 5000 --lr_o 0.00001
+```
