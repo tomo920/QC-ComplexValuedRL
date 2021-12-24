@@ -1,7 +1,7 @@
 # Complex Valued Reinforcement Learning with Quantum Circuit
 The implementation of complex valued reinforcement learning method using quantum circuit.
 
-This repository is the code for the paper "Variational quantum circuit based reinforcement learning for POMDP and experimental implementation".
+This repository is the code for the paper "[Variational quantum circuit based reinforcement learning for POMDP and experimental implementation](https://www.hindawi.com/journals/mpe/2021/3511029/)".
 
 If you have any comments, feel free to contact me by email tomoakikimura95710920@gmail.com.
 
